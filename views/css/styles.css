@@ -1,0 +1,40 @@
+html,body{
+    width: 100%;
+}
+
+footer,header{
+    font-family: 'Raleway', sans-serif;
+    background-color: #24919c;
+}
+
+img{
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
+}
+
+.submitbtn{
+    margin-top: 5px;
+}
+
+.resetbtn{
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+
+.mainbody{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 5px #24919c;
+    border-radius: 4%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+label{
+    color: #f79144;
+}
+
+#resimg{
+    padding-left: 0px;
+}

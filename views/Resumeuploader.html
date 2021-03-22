@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Uploader</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header class="headerclass text-center p-2">
+        <h1>Resume Uploader</h1>
+    </header>
+    <main class="mainbody">
+        <div class="d-flex flex-row">
+            <div class="imgclass col-xl-8" id="resimg">
+                <img src="./images/resumeupload.png" class=" w-100 h-100">
+            </div>
+            <div class="col-xl-4">
+                <form class="formclass" method="POST" action="/" enctype="multipart/form-data">
+                    <div class="form-group d-flex flex-column">
+                        <div>
+                            <label for="name"><b><u>Name:</u></b></label><br>
+                            <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+                        </div>
+                        <div>
+                            <label for="number"><b><u>Number:</u></b></label><br>
+                            <input type="number" id="number" name="number" placeholder="Enter your Number" required>
+                        </div>
+                        <div>
+                            <label for="email"><b><u>Enter your email:</u></b></label><br>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div>
+                            <label for="birthday"><b><u>Birthday:</u></b></label><br>
+                            <input type="date" id="birthday" name="birthday" required>
+                        </div>
+                        <div>
+                            <label><b><u>Choose your Gender:</u></b></label><br>
+                            <div id="rbuttons">
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male" class="text-dark">Male</label><br>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female" class="text-dark">Female</label><br>
+                                <input type="radio" id="other" name="gender" value="other">
+                                <label for="other"class="text-dark" >Other</label>
+                            </div>
+                        </div>
+                        <div>
+                            <label><b><u>Job Looking for:</u></b></label><br>
+                            <div id="cboxes">
+                                <input type="checkbox" id="fed" name="fed" value="Frontend-Developer">
+                                <label for="fed" class="text-dark" >Frontend-Developer</label><br>
+                                <input type="checkbox" id="bed" name="bed" value="Backend-Developer">
+                                <label for="bed" class="text-dark" >Backend-Developer</label><br>
+                                <input type="checkbox" id="fd" name="fd" value="FullStack-Developer">
+                                <label for="fd" class="text-dark" >FullStack-Developer</label><br>
+                                <input type="checkbox" id="da" name="da" value="Data-Analyst">
+                                <label for="da" class="text-dark" >Data-Analyst</label><br>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="myfile"><b><u>Select a file (only .docx, .pdf formats):</u></b></label>
+                            <input type="file" accept=".docx , .pdf" id="myfile" name="myfile" required>
+                        </div>
+                        <div>
+                            <input type="submit" class="submitbtn" value="Submit">
+                            <input type="reset" class="resetbtn"value="Reset">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="d-flex flex-row justify-content-around mt-auto p-3">
+        <div>
+            <a class="text-white" href="">AboutUs</a>
+        </div>
+        <div>
+            <a class="text-white" href="mailto:meeravignesh2011@gmail.com">MailUs</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

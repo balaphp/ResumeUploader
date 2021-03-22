@@ -1,0 +1,31 @@
+{
+  "name": "ResumeUploader",
+  "version": "1.0.0",
+  "description": "This repo consists of a basic HTML form that collects user data and resumes. The data is stored in MongoDB. The resume is stored in the local PC. I've used NodeJS, Express as backend to connect the HTML page to the database.",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.1",
+    "init": "^0.1.2",
+    "mongodb": "^3.6.5",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vignesh1326/ResumeUploader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vignesh1326/ResumeUploader/issues"
+  },
+  "homepage": "https://github.com/Vignesh1326/ResumeUploader#readme"
+}
